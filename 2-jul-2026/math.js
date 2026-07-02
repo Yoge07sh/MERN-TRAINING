@@ -1,4 +1,4 @@
-/*let add = (a,b)=> {
+let add = (a,b)=> {
 let c = a+b;
 console.log("this is add function")
 console.log(c);
@@ -13,7 +13,7 @@ const subtract = (a,b) => {
 module.exports = {
     add,
     subtract
-}*/
+}
 exports.add = (a,b)=> {
 let c = a+b;
 console.log("this is add function")
