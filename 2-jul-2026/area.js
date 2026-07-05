@@ -1,13 +1,13 @@
-let area_Circle = (r)=>{
-    let c = 3.14*r*r;
+let area_Circle = (r) => {
+    let c = 3.14 * r * r;
     return c;
 }
-let area_rectangle = (l,b)=>{
-    let c = l*b;
-    return c;
+let area_rectangle = (l, b) => {
+    let s = l * b;
+    return s;
 }
-let area_rightTriangle = (b,h) =>{
-    let c =.5*b*h;
+let area_rightTriangle = (b, h) => {
+    let c = .5 * b * h;
     return c;
 }
 module.exports = {
