@@ -1,37 +1,50 @@
 [
     {
-        "id": 1,
+        "facultyid": 1,
         "first_name": "Margalo",
         "last_name": "Highton",
         "email": "mhighton0@sun.com",
-        "gender": "Female"
+        "gender": "Female",
+        "salary": "10000"
     },
     {
-        "id": 2,
+        "facultyid": 2,
         "first_name": "Niki",
         "last_name": "Skep",
         "email": "nskep1@yale.edu",
-        "gender": "Male"
+        "gender": "Male",
+        "salary": "20000"
     },
     {
-        "id": 3,
+        "facultyid": 3,
         "first_name": "Dodi",
         "last_name": "Stemson",
         "email": "dstemson2@constantcontact.com",
-        "gender": "Female"
+        "gender": "Female",
+        "salary": "10000"
     },
     {
-        "id": 4,
+        "facultyid": 4,
         "first_name": "Gayle",
         "last_name": "Kahn",
         "email": "gkahn3@flavors.me",
-        "gender": "Female"
+        "gender": "Female",
+        "salary": "10000"
     },
     {
-        "id": 5,
+        "facultyid": 5,
         "first_name": "Patrizio",
         "last_name": "Shurrock",
         "email": "pshurrock4@unesco.org",
-        "gender": "Male"
+        "gender": "Male",
+        "salary": "10000"
+    },
+    {
+        "facultyid": 6,
+        "first_name": "Patrizio",
+        "last_name": "Shurrock",
+        "email": "pshurrock4@unesco.org",
+        "gender": "Male",
+        "salary": "10000"
     }
 ]
