@@ -4,7 +4,7 @@ const fs = require('fs');
 const user= require('./routes/user');
 app.use(user);
 const faculty = require('./routes/faculty');
-app.use(faculty);
+app.use(faculty); 
 app.use(express.json());
 app.listen(3000, (err) => {
     if (err) {

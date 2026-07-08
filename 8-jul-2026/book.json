@@ -1,0 +1,32 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "Kean",
+        "price": "240"
+    },
+    {
+        "bookId": 2,
+        "bookName": "Kennie",
+        "price": "123"
+    },
+    {
+        "bookId": 3,
+        "bookName": "Adelind",
+        "price": "100"
+    },
+    {
+        "bookId": 4,
+        "bookName": "Harv",
+        "price": "400"
+    },
+    {
+        "bookId": 5,
+        "bookName": "Engracia",
+        "price": "120"
+    },
+    {
+        "bookId": 6,
+        "bookName": "Engracia",
+        "price": "120"
+    }
+]
