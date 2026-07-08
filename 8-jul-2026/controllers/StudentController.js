@@ -1,4 +1,5 @@
 const students = require('../student.json');
+const fs = require('fs');
 const getStudents = (req, res) => {
     try {
         res.json(students);
@@ -10,7 +11,7 @@ const getStudentByRollno = (req, res) => {
     try {
         const Rollno = req.params.Rollno;
         const student = students.find(student => student.Rollno == Rollno);
-        res.json(students);
+        res.json(student);
     } catch (err) {
         console.log(err);
     }

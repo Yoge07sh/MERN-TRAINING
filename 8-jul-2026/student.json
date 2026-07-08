@@ -208,19 +208,5 @@
         "last_name": "Kacheler",
         "age": 24,
         "email": "rkachelert@dailymail.co.uk"
-    },
-    {
-        "Rollno": 31,
-        "first_name": "Hayden",
-        "last_name": "Gerner",
-        "age": 25,
-        "email": "hgerner6@bandcamp.com"
-    },
-    {
-        "Rollno": 32,
-        "first_name": "Egor",
-        "last_name": "Breakspear",
-        "age": 18,
-        "email": "ebreakspear8@studiopress.com"
     }
 ]
