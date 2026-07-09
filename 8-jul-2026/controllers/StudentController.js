@@ -22,7 +22,7 @@ const addStudent = (req, res) => {
         students.push(req.body);
         fs.writeFile('student.json', JSON.stringify(students), (err) => {
             if (err) {
-                consolr.log("not added");
+                console.log("not added");
             } else {
                 console.log("added successfully");
             }
