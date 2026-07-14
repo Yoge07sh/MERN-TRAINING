@@ -1,4 +1,5 @@
 const Student = require('../models/Student');
+
 const addStudent = async (req, res) => {
     try {
         console.log("adding student");
