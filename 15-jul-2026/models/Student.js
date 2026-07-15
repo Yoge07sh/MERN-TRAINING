@@ -17,7 +17,7 @@ const StudentSchema = new Schema({
         type: String,
         required: true
     },
-    monileNo: {
+    mobileNo: {
         type: String,
         required: true
     },
@@ -25,4 +25,4 @@ const StudentSchema = new Schema({
 
 });
 
-module.exports = mongoose.model('Student',StudentSchema);
+module.exports = mongoose.model('Student', StudentSchema);
