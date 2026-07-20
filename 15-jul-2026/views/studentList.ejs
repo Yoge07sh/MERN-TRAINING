@@ -1,0 +1,62 @@
+<%- include('./base/header.ejs')%>
+    <div class="container">
+        <div class="row" mt-1>
+            <h2 class="text-center text-danger">List of Students</h2>
+            <table class="table text-center">
+                <tr>
+                    <th>
+                        Rollno
+                    </th>
+                    <th>
+                        student Name
+                    </th>
+                    <th>
+                        Father Name
+                    </th>
+                    <th>
+                        AdharCard Number
+                    </th>
+                    <th>
+                        Mobile Number
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+                <% students.forEach((student)=>{ %>
+                    <tr>
+                        <td>
+                            <%=student.rollno%>
+                        </td>
+
+                        <td>
+                            <%=student.studentName%>
+
+                        </td>
+
+                        <td>
+                            <%=student.fatherName%>
+
+                        </td>
+
+                        <td>
+                            <%=student.adharCardNo%>
+
+                        </td>
+
+                        <td>
+                            <%=student.mobileNo%>
+
+                        </td>
+
+                        <td>
+
+                        </td>
+
+                    </tr>
+                    <% }) %>
+            </table>
+        </div>
+    </div>
+
+    <%- include('./base/footer.ejs')%>
