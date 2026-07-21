@@ -10,27 +10,31 @@
             <div class="col">
                 <form action="/edit/student/<%=student._id%>" method="post">
                     <div class="mt-1">
-                        <label class="form-label">Roll No:</label>
-                        <input type="text" class="form-control"  name="rollno" value="<%=student.rollno%>"/>
+                        <label class="form-label">Roll No</label>
+                        <input type="text" class="form-control" name="rollno" value="<%=student.rollno%>" />
                     </div>
                     <div class="mt-1">
-                        <label class="form-label">Student Name:</label>
-                        <input type="text" class="form-control"  name="studentName" value="<%=student.studentName%>"/>
+                        <label class="form-label">Student Name</label>
+                        <input type="text" class="form-control" name="studentName" value="<%=student.studentName%>" />
                     </div>
                     <div class="mt-1">
-                        <label class="form-label">Father Name:</label>
-                        <input type="text" class="form-control" placeholder="Enter Father Name:" name="fatherName" value="<%=student.fatherName%>" />
+                        <label class="form-label">Father Name</label>
+                        <input type="text" class="form-control" placeholder="Enter Father Name:" name="fatherName"
+                            value="<%=student.fatherName%>" />
                     </div>
                     <div class="mt-1">
-                        <label class="form-label">Aadhar Card No:</label>
-                        <input type="text" class="form-control" name="adharCardNo" value="<%=student.adharCardNo%>"/>
+                        <label class="form-label">Aadhar Card No</label>
+                        <input type="text" class="form-control" name="adharCardNo" value="<%=student.adharCardNo%>" />
                     </div>
                     <div class="mt-1">
-                        <label class="form-label">Mobile No:</label>
-                        <input type="text" class="form-control" placeholder="Enter Mobile No:" name="mobileNo" value="<%=student.mobileNo%>"/>
+                        <label class="form-label">Mobile No</label>
+                        <input type="text" class="form-control" placeholder="Enter Mobile No:" name="mobileNo"
+                            value="<%=student.mobileNo%>" />
                     </div>
                     <div class="mt-2">
                         <input type="submit" class="btn btn-success" value="Edit Student">
+                        <a href="/students" class="btn btn-danger">Cancel</a>
+
                     </div>
                 </form>
             </div>
