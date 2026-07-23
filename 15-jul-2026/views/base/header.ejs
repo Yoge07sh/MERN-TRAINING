@@ -4,36 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RD-SMS</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>|HomePage|</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg  bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" style="color:white">RD-SMS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:white" href="/">Add Student</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" style="color:white">Book List</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:white" href="/students">List Student</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#0b5ed7;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">RD-SMS</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <!-- Students Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="studentDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Students
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/">Add Student</a></li>
+                        <li><a class="dropdown-item" href="/students">Student List</a></li>
+                    </ul>
+                </li>
+
+                <!-- Books Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="bookDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Books
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="/add/bookpage">Add Book</a></li>
+                        <li><a class="dropdown-item" href="/books">Book List</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="/issued-books">Issued Books</a></li>
+                        <li><a class="dropdown-item" href="/returned-books">Returned Books</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+
+            <!-- Search Form -->
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                <button class="btn btn-light" type="submit">
+                    Search
+                </button>
+            </form>
+
         </div>
+    </div>
     </nav>

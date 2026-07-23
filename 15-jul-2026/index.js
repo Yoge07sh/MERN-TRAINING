@@ -4,10 +4,12 @@ const connect = require('./connection');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 const student = require('./routes/studentRoute');
+const book = require('./routes/bookRoute');
 const path = require('path');
 app.set('view engine', 'ejs');
 app.set('views', path.resolve('./views'));
 app.use(student);
+app.use(book);
 connect();
 
 

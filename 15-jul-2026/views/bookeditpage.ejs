@@ -1,0 +1,35 @@
+<%- include('./base/header.ejs')%>
+    <div class="container">
+        <div class="alert bg-success my-3">
+            <h4 class="text-center text-white">Edit Book</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <form action="/edit/book/<%=book._id%>" method="post">
+                    <div class="mt-1">
+                        <label class="form-label">Book Id</label>
+                        <input type="text" class="form-control" name="bookId" value="<%=book.bookId%>" />
+                    </div>
+                    <div class="mt-1">
+                        <label class="form-label">Book Name</label>
+                        <input type="text" class="form-control" name="bookName" value="<%=book.bookName%>" />
+                    </div>
+                    <div class="mt-1">
+                        <label class="form-label">Price</label>
+                        <input type="number" class="form-control" placeholder="Enter price:" name="price"
+                            value="<%=book.price%>" />
+                    </div>
+                    <div class="mt-2">
+                        <input type="submit" class="btn btn-success" value="Edit Book">
+                        <a href="/books" class="btn btn-danger">Cancel</a>
+
+                    </div>
+                </form>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    <%- include('./base/footer.ejs')%>
